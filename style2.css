@@ -1,0 +1,107 @@
+
+/** Navbar start **/
+
+.navbar-brand img {
+	height: 50px;
+	width: 50px;
+}
+
+.navbar {
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.75);
+}
+
+.navbar-header .navbar-brand {
+	letter-spacing: 0.1rem;
+}
+.navbar-nav .nav-item .nav-link {
+   text-transform: uppercase;
+   cursor: pointer;
+}
+/**
+.navbar-nav button {
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	margin-left: 20px;
+	height: 100%;
+    padding: 18px 18px;
+}
+**/
+.navbar-nav button {
+    border-radius: 0%;
+    text-transform: uppercase;
+}
+
+
+/** Navbar end **/
+ 
+/** Hero header start **/
+#header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/gwagon.jpg);
+    background-size: 100% auto;
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-inner {
+    padding-top: 35%;
+    
+    margin-left: 2rem;
+}
+#hero-header {
+    letter-spacing: .3rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#about-p {
+    line-height: 2.2;
+}
+/** hero header end **/
+
+
+/** Hero End **/
+
+/** About Us start 
+#about-container {
+  background-color;
+  padding-bottom: 2rem;
+}
+
+/**
+#about-p {
+ padding-left: 30%;
+padding-right: 30%;
+}
+**/
+#bootstrap-overides #about {
+  
+  margin: 0, auto;
+}
+
+/** About Us end **/
+
+/** Detailing services start **/
+#service-hr {
+    margin: 0 auto;
+}
+ .service-img {
+   width: 100%;
+   height: auto;
+ }
+
+ #bootstrap-overides .card-header {
+   background-color: #ffffff;
+ }
+ .card-effect {
+  box-shadow: 0 8px 22px rgba(0,0,0,0.2);
+  background-color: var(--white);
+  padding: 25px;
+  transition: all 0.35s ease;
+}
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+  
+}
+/** Detailing services end **/
