@@ -32,7 +32,6 @@
     text-transform: uppercase;
 }
 
-
 /** Navbar end **/
  
 /** Hero header start **/
@@ -53,35 +52,38 @@
     letter-spacing: .3rem;
     text-shadow: 2px 2px 4px #000000;
 }
-
-#about-p {
+#hero-p {
     line-height: 2.2;
 }
 /** hero header end **/
 
-
-/** Hero End **/
-
-/** About Us start 
-#about-container {
-  background-color;
-  padding-bottom: 2rem;
+/** Card overlay start **/
+#card-row {
+    margin: 0 auto;
+}
+#card-overlay {
+    margin: 0 auto;
 }
 
-/**
-#about-p {
- padding-left: 30%;
-padding-right: 30%;
+.overlay-cards {
+    padding: 1rem;
+    background-color: #979797!important;
+    margin-top: -100px;
+    margin-bottom: 4rem;
+    color: #fff; 
+    font-weight: 400;
+    padding-bottom: 8rem;
+    border-radius: 0%!important;
 }
-**/
-#bootstrap-overides #about {
-  
-  margin: 0, auto;
+.overlay-bodies {
+    padding: 1rem 0rem!important;
+    
 }
 
-/** About Us end **/
+/** Card overlay End **/
 
 /** Detailing services start **/
+
 #service-hr {
     margin: 0 auto;
 }
