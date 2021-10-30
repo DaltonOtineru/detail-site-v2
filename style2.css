@@ -66,18 +66,34 @@
 }
 
 .overlay-cards {
-    padding: 1rem;
-    background-color: #979797!important;
-    margin-top: -100px;
-    margin-bottom: 4rem;
+    padding-top: 2rem;
+    ;
+    
+    
+    
     color: #fff; 
     font-weight: 400;
-    padding-bottom: 8rem;
+   
     border-radius: 0%!important;
+    border: none!important;
 }
+.overlay-headers img {
+    height: 80px;
+}
+.overlay-cards p {
+    color: #5A5A5A;
+}
+
 .overlay-bodies {
     padding: 1rem 0rem!important;
-    
+}
+.overlay-bodies h4 {
+    border-left: 3px solid rgb(2, 117, 216);
+    padding-left: .5rem;
+}
+.fa-calendar-check {
+    font-size: 100px;
+    color: #000;
 }
 
 /** Card overlay End **/
@@ -86,6 +102,8 @@
 
 #service-hr {
     margin: 0 auto;
+    height: 3px;
+    color:rgb(2, 117, 216);
 }
  .service-img {
    width: 100%;
@@ -107,3 +125,7 @@
   
 }
 /** Detailing services end **/
+
+p {
+    max-width: 50rem;
+}
