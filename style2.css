@@ -5,23 +5,27 @@
 /** Navbar start **/
 
 .navbar-brand img {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .navbar {
-	background-color: #ffffff;
-	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.75);
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.75);
 }
 
 .navbar-header .navbar-brand {
-	letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
 }
 .navbar-nav .nav-item .nav-link {
-   text-transform: uppercase;
-   cursor: pointer;
-   border-right: solid black 2px;
-   line-height: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-right: solid black 2px;
+  line-height: 8px;
+  font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgb(2, 117, 216) !important;
 }
 /**
 .navbar-nav button {
@@ -33,77 +37,75 @@
 }
 **/
 .navbar-nav button {
-    border-radius: 0%;
-    text-transform: uppercase;
+  border-radius: 0%;
+  text-transform: uppercase;
 }
 
 /** Navbar end **/
- 
+
 /** Hero header start **/
 #header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/gwagon.jpg);
-    background-size: 100% auto;
-    height: 95vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(img/gwagon.jpg);
+  background-size: 100% auto;
+  height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #header-inner {
-    padding-top: 35%;
-    
-    margin-left: 2rem;
+  padding-top: 35%;
+
+  margin-left: 2rem;
 }
 #hero-header {
-    letter-spacing: .3rem;
-    text-shadow: 2px 2px 4px #000000;
+  letter-spacing: 0.3rem;
+  text-shadow: 2px 2px 4px #000000;
 }
 #hero-p {
-    line-height: 2.2;
+  line-height: 2.2;
 }
 /**======== Hero header end ========**/
 
 /**======= Card overlay start =======**/
 #card-row {
-    margin: 0 auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
+/*Margin 0-auto off looks better on larger screens ^ */
+
 #card-overlay {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .overlay-cards {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    color: #fff; 
-    font-weight: 400;
-    border-radius: 0%!important;
-    border: none!important;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 0% !important;
+  border: none !important;
 }
-    
-    
-    
-    
-   
+
 .overlay-headers img {
-    height: 80px;
+  height: 80px;
 }
 .overlay-cards p {
-    color: #7e7e7e;
-    /* 5a5a5a */
+  color: #7e7e7e;
+  /* 5a5a5a */
 }
 
 .overlay-bodies {
-    padding: 1rem 0rem!important;
+  padding: 1rem 0rem !important;
 }
 .overlay-bodies h4 {
-    border-left: 3px solid rgb(2, 117, 216);
-    padding-left: .5rem;
+  border-left: 3px solid #000;
+  padding-left: 0.5rem;
+  color: rgb(2, 117, 216) !important;
 }
 .fa-calendar-check {
-    font-size: 100px;
-    color: #000;
+  font-size: 100px;
+  color: #000;
 }
 
 /**======== Card overlay End =========**/
@@ -111,53 +113,51 @@
 /**======== Paralax Scrolling IMG Start =======**/
 
 .p-img {
-    background-image: url(img/paralax.jpg);
-    min-height: 20rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.70;
-    background-attachment: fixed;
-    position: relative;
+  background-image: url(img/paralax.jpg);
+  min-height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  background-attachment: fixed;
+  position: relative;
 }
 .p-text {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: .4rem;
-    z-index: 2;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4rem;
+  z-index: 2;
 }
-    
+
 .p-text .border {
-    background-color: rgba(180, 180, 180, 0.6);
-    color: #000;
-    padding: 1rem;
+  background-color: rgba(180, 180, 180, 0.6);
+  color: #000;
+  padding: 1rem;
 }
-
-
 
 /**======= Paralax Scrolling IMG End =========**/
 
 /**======= Detailing services start =======**/
 
 #service-hr {
-    margin: 0 auto;
-    height: 3px;
-    color:rgb(2, 117, 216);
+  margin: 0 auto;
+  height: 3px;
+  color: #000;
 }
- .service-img {
-   width: 100%;
-   height: auto;
- }
+.service-img {
+  width: 100%;
+  height: auto;
+}
 
- #bootstrap-overides .card-header {
-   background-color: #ffffff;
- }
- .card-effect {
-  box-shadow: 0 8px 22px rgba(0,0,0,0.2);
+#bootstrap-overides .card-header {
+  background-color: #ffffff;
+}
+.card-effect {
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
   background-color: var(--white);
   padding: 25px;
   transition: all 0.35s ease;
@@ -167,21 +167,61 @@
   transform: translateY(5px);
 }
 .card-body ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+.detail-row {
+  margin-bottom: 2rem;
 }
 /**======== Detailing services end ======**/
 
 p {
-    max-width: 50rem;
+  max-width: 35rem;
 }
+
+/**======= Footer Start =====**/
+
+.footer {
+  background-color: #212329;
+  padding-bottom: 3rem;
+}
+/*
+.footer {
+  width: 100%;
+  min-height: 25vh;
+  background-color: #212329;
+  color: #fff;
+  margin: 0 auto;
+}
+*/
+.footer-row {
+}
+.footer-heading {
+  color: rgb(2, 117, 216);
+  letter-spacing: 0.1rem;
+}
+#links,
+#help {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  line-height: 2rem;
+  padding-left: 2rem !important;
+}
+#links a,
+#help a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/**======= Footer End =====**/
 
 /**========= Media Queries =======**/
 
-@media only screen and (max-width: 992px){
-    .navbar-nav .nav-item .nav-link {
-        text-transform: uppercase;
-        cursor: pointer;
-        border: none;
-        line-height: 1.4;
-     }
+@media only screen and (max-width: 992px) {
+  .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    line-height: 1.4;
+  }
 }
